@@ -194,13 +194,13 @@ textarea{
 
 }
 
-.firstLink:hover + .kanbujian{
+/*.firstLink:hover + .kanbujian{
 	display: block;
 } 
 .kanbujian{
 	border: 1px solid #000;
 	display: none;
-}
+}*/
 
 
 
