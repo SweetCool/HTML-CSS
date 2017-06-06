@@ -1,0 +1,224 @@
+
+/* 
+html5doctor.com Reset Stylesheet
+v1.4.1 
+2010-03-01
+Author: Richard Clark - http://richclarkdesign.com
+*/
+
+/*html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+:focus {
+	outline: 1;
+}
+
+article,aside,canvas,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section,summary { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted #000;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}*/
+.top{
+	border-bottom: 1px solid #000;
+	height: 70px;
+	display: block;
+}
+.nav_top{
+	list-style-type: none;
+	margin-left: 30px;
+	/*margin: 0px;
+	padding: 0px;*/
+}
+ul.nav_top li {
+	/*display: inline-block;*/
+}
+ul.nav_top li a{
+	text-decoration: none;
+	float: left;
+	color: #000;
+	font-size: 12px;
+	margin-left: 30px;
+	width: 80px;
+	height:25px;
+	text-align:center;
+	padding:10px 0 0 0;
+	/*border: 1px solid #000;*/
+}
+ul.nav_top li a:hover{
+	background-color: #f0f0f0;
+}
+ul.nav_top li a:hover {
+	display: block;
+}
+/*ul.nav_top li a:link{
+	color: red;
+}*/
+
+.nav_top_div{
+	/*border: 1px solid #000;*/
+	width: 600px;
+	float: right;
+}
+.lan{
+	width: 170px;
+	height: 30px;
+	background-color: white;
+	border: 1px solid gray;
+
+}
+.fanyi{
+	width: 100px;
+	height: 30px;
+	margin-left: 15px;
+	border: 1px solid rgb(54,125,255);
+	letter-spacing: 3px;
+}
+textarea{
+	display: block;
+	width: 490px;
+	height: 135px;
+	margin-top: 10px;
+	margin-left: 70px;
+	float: left;
+}
+.b4{
+	/*border: 1px solid #000;*/
+	width: 675px;
+	margin-top: 30px;
+	margin-left: 70px;
+	
+}
+.b4 button{
+	border-radius: 5px;
+}
+.output{
+	width: 490px;
+	height: 139px;
+	background-color: #f0f0f0;
+	border: 1px solid #f0f0f0;
+	margin-top: 10px;
+	margin-left: 566px;
+
+}
+.history{
+	width: 490px;
+	height: 111px;
+	background-color: #f0f0f0;
+	border: 1px solid #f0f0f0;
+	margin-top: 30px;
+	margin-left: 68px;
+
+}
+
+.firstLink:hover + .kanbujian{
+	display: block;
+} 
+.kanbujian{
+	border: 1px solid #000;
+	display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
